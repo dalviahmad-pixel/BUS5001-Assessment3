@@ -1,0 +1,72 @@
+[
+  {
+    "message": "There is a water leak in Building C that has been running all morning.",
+    "classification": {
+      "issue_category": "Water",
+      "urgency": "HIGH",
+      "sentiment": "NEGATIVE",
+      "followup_required": "Y",
+      "recommended_team": "Facilities Management",
+      "escalation_reason": "Water leak could lead to property damage and increased costs.",
+      "data_sensitivity_risk": "LOW",
+      "brief_summary": "A water leak has been reported in Building C.",
+      "suggested_action": "Dispatch a maintenance team to fix the leak immediately."
+    }
+  },
+  {
+    "message": "The recycling bins are contaminated again and no one seems to be checking them.",
+    "classification": {
+      "issue_category": "Waste",
+      "urgency": "MEDIUM",
+      "sentiment": "NEGATIVE",
+      "followup_required": "Y",
+      "recommended_team": "Facilities Management",
+      "escalation_reason": "Recycling contamination could lead to increased waste disposal costs.",
+      "data_sensitivity_risk": "LOW",
+      "brief_summary": "Recycling bins are contaminated and unchecked.",
+      "suggested_action": "Schedule a review of recycling bin contamination."
+    }
+  },
+  {
+    "message": "The air conditioning is running overnight in an empty office.",
+    "classification": {
+      "issue_category": "Air Quality",
+      "urgency": "LOW",
+      "sentiment": "NEUTRAL",
+      "followup_required": "N",
+      "recommended_team": "Facilities Management",
+      "escalation_reason": "None",
+      "data_sensitivity_risk": "LOW",
+      "brief_summary": "Air conditioning is operating unnecessarily in an empty office.",
+      "suggested_action": "Review and adjust the air conditioning schedule."
+    }
+  },
+  {
+    "message": "I want to report that one of our suppliers may not meet our sustainability policy.",
+    "classification": {
+      "issue_category": "Sustainability Policy",
+      "urgency": "MEDIUM",
+      "sentiment": "NEGATIVE",
+      "followup_required": "Y",
+      "recommended_team": "Procurement",
+      "escalation_reason": "Supplier non-compliance with sustainability policy",
+      "data_sensitivity_risk": "LOW",
+      "brief_summary": "Potential supplier non-compliance with sustainability policy reported.",
+      "suggested_action": "Investigate the supplier's compliance with the sustainability policy."
+    }
+  },
+  {
+    "message": "The accessible entrance near the main building has been blocked for two days.",
+    "classification": {
+      "issue_category": "Accessibility",
+      "urgency": "HIGH",
+      "sentiment": "NEGATIVE",
+      "followup_required": "Y",
+      "recommended_team": "Facilities Management",
+      "escalation_reason": "Blocked accessible entrance poses a risk to individuals with disabilities.",
+      "data_sensitivity_risk": "LOW",
+      "brief_summary": "The accessible entrance has been blocked for two days.",
+      "suggested_action": "Clear the blockage and ensure the entrance is accessible."
+    }
+  }
+]

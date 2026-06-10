@@ -1,0 +1,47 @@
+[
+  {
+    "message": "There is a water leak in Building C that has been running all morning.",
+    "gpt4o_category": "Water",
+    "gpt4o_urgency": "HIGH",
+    "rule_based_category": "Water",
+    "rule_based_urgency": "HIGH",
+    "hf_category": "Water issue",
+    "hf_urgency": "Critical urgent issue requiring immediate action"
+  },
+  {
+    "message": "The recycling bins are contaminated again and no one seems to be checking them.",
+    "gpt4o_category": "Waste",
+    "gpt4o_urgency": "MEDIUM",
+    "rule_based_category": "Waste",
+    "rule_based_urgency": "MEDIUM",
+    "hf_category": "Waste and recycling issue",
+    "hf_urgency": "Low priority informational message"
+  },
+  {
+    "message": "The air conditioning is running overnight in an empty office.",
+    "gpt4o_category": "Air Quality",
+    "gpt4o_urgency": "LOW",
+    "rule_based_category": "Energy",
+    "rule_based_urgency": "MEDIUM",
+    "hf_category": "Energy and emissions issue",
+    "hf_urgency": "Low priority informational message"
+  },
+  {
+    "message": "I want to report that one of our suppliers may not meet our sustainability policy.",
+    "gpt4o_category": "Sustainability Policy",
+    "gpt4o_urgency": "MEDIUM",
+    "rule_based_category": "Procurement",
+    "rule_based_urgency": "LOW",
+    "hf_category": "Sustainability policy violation",
+    "hf_urgency": "Low priority informational message"
+  },
+  {
+    "message": "The accessible entrance near the main building has been blocked for two days.",
+    "gpt4o_category": "Accessibility",
+    "gpt4o_urgency": "HIGH",
+    "rule_based_category": "Accessibility",
+    "rule_based_urgency": "MEDIUM",
+    "hf_category": "Accessibility and inclusion barrier",
+    "hf_urgency": "Medium priority issue requiring action within a week"
+  }
+]
